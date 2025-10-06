@@ -1,7 +1,7 @@
 // storefront.test.js - Unit tests with mocks and stubs
 const { Cart, ProductService, NotificationService, OrderService } = require('./storefront');
 
-// Test 1: Basic Cart Functionality (No mocks/stubs)
+// Test 1: Basic Cart Functionality
 describe('Cart Basic Operations', () => {
   let cart;
   let productService;
